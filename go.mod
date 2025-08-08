@@ -1,4 +1,4 @@
-module github.com/fugue/regula/v3
+module github.com/MartinideLimon/regula/v1
 
 go 1.18
 
