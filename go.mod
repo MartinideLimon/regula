@@ -1,4 +1,4 @@
-module github.com/MartinideLimon/regula/v1
+module github.com/MartinideLimon/regula
 
 go 1.18
 
