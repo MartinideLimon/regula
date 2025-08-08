@@ -151,7 +151,7 @@ func (c *HclConfiguration) RegulaInput() RegulaInput {
 }
 
 func hasTerraformExt(path string) bool {
-	return strings.HasSuffix(path, ".tf") || strings.HasSuffix(path, ".tf.json")
+	return strings.HasSuffix(path, ".tf") || strings.HasSuffix(path, ".tf.json") || strings.HasSuffix(path, ".tofu") || strings.HasSuffix(path, ".tofu.json")
 }
 
 func adapter(resources []hcl_interpreter.Resource) map[string]interface{} {
